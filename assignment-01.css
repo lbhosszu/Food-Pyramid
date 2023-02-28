@@ -1,0 +1,122 @@
+.btns{
+    background: #746c6c;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 35px;
+    display: none;
+} 
+
+.Counterbtns{
+    background: #746c6c;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 35px;
+}
+  
+  .pyramid-level-1 {
+    border-bottom: 150px solid #EA1B07;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 0px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .marginLevel1{
+      margin-top: 10px;
+    }
+
+    .buttonMargin1{
+      margin-top: 220px;
+    }
+
+  .pyramid-level-2 {
+      border-bottom: 100px solid #F4B600;
+      border-left: 70px solid transparent;
+      border-right: 70px solid transparent;
+      height: 0;
+      width: 210px;
+      margin: auto;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+    
+
+  .pyramid-level-3 {
+    position: relative;
+      border-bottom: 100px solid #F9E029;
+      border-left: 70px solid transparent;
+      border-right: 70px solid transparent;
+      height: 0;
+      width: 360px;
+      margin: auto;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+
+
+  .pyramid-level-4 {
+    position: relative;
+      border-bottom: 100px solid #049DFC;
+      border-left: 70px solid transparent;
+      border-right: 70px solid transparent;
+      height: 0;
+      width: 500px;
+      margin-right:auto;
+      margin-left:auto;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+
+
+  .pyramid-level-5 {
+    position: relative;
+      border-bottom: 100px solid #A77643;
+      border-left: 70px solid transparent;
+      border-right: 70px solid transparent;
+      height: 0;
+      width: 640px;
+      margin-right:auto;
+      margin-left:auto;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+
+
+  .pyramid-level-6 {
+    position: relative;
+      border-bottom: 100px solid #5CD533;
+      border-left: 70px solid transparent;
+      border-right: 70px solid transparent;
+      height: 0;
+      width: 780px;
+      margin-right:auto;
+      margin-left:auto;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+
+    .buttonMargin2{
+      margin-top: 110px;
+    }
+
+
+    .pyramid-level-1:hover .btns, .pyramid-level-2:hover .btns, .pyramid-level-3:hover .btns, .pyramid-level-4:hover .btns, .pyramid-level-5:hover .btns, .pyramid-level-6:hover .btns{
+        display: block;
+    }
+
+    .text{
+      font-size: 30px;
+      text-align: center;
+    }
